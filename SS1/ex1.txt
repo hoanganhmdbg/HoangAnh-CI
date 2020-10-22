@@ -1,0 +1,2 @@
+1.OOP là object oriented programing cho phép lập trình viên tạo ra các đối tượng trong code trừu tượng hóa các đối tượng
+2. OOP có 4 tính chất : Tính đóng gói (Encapsulation),Tính kế thừa(inheritance), Tính đa hình (Polymorphism), tính trừu tương(Abstraction)

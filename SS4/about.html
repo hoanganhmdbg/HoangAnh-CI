@@ -1,0 +1,29 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="title">This is about page</h1>
+    <script>
+        console.log("dasdsa");
+        
+            function getRandomColor() {
+                let letter = "1234567890ABCDEF".split("");
+                let color = '#';
+                for (let i = 0; i < 6; i++) {
+                    color += letter[Math.floor(Math.random() * 15)];
+                }
+                return color;
+            }
+            console.log("dasdsa");
+            console.log(getRandomColor());
+            document.getElementById("title").style.color = getRandomColor();
+    </script>
+</body>
+
+
+</html>

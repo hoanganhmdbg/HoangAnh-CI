@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <anime-container
+        photo="https://i.vdicdn.com/ta/2020/11/04/057be41a2c4d9a0c_053ffecc36201a99_4697216044979318185710.jpg"
+        name="The Anime I don't know" category="Anime" price="100$" chapters="15 books"></anime-container>
+</body>
+<template id="anime-template">
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        
+        .anime-container {
+            width: 200px;
+            height: 500px;
+            font-size: 14px;
+        }
+
+        .anime-photo {
+            width: 100%;
+            height: auto;
+        }
+        .anime-category{
+            border: 1px solid gray;
+            border-radius: 2px;
+            margin-top: 3px;
+            width: 30%;
+            text-align: center;
+            padding: 1px;
+        }
+        .anime-name{
+            margin-top: 3px;
+
+        }
+        .anime-price,.anime-chapters{
+            text-align: right;
+            margin-top: 2px;
+        }
+    </style>
+    <div class="anime-container">
+        <img src="" alt="" class="anime-photo">
+        <div class="anime-category"></div>
+        <div class="anime-name"></div>
+        <div class="anime-price"></div>
+        <div class="anime-chapters"></div>
+    </div>
+</template>
+<script src="js/bai3.js"></script>
+
+</html>
